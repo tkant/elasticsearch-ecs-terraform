@@ -6,9 +6,7 @@ variable "microservice_name" {
   default = "rdawebserver"
 }
 
-variable "imagename" {
-  default = "padmakarojha/magnify"
-}
+variable "imagename" {}
 
 variable "region" {
   default = "eu-west-1"
@@ -16,8 +14,8 @@ variable "region" {
 
 variable "az" {
   default = {
-    "zone1" = "us-east-1b"
-    "zone2" = "us-east-1c"
+    "zone1" = "eu-west-1a"
+    "zone2" = "eu-west-1b"
   }
 }
 
